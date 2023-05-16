@@ -78,8 +78,9 @@
 };
 
 &pm8350b_haptics {
-	qcom,vmax-mv = <1300>;
-	qcom,lra-period-us = <5880>;
+	qcom,vmax-mv = <1280>;
+	qcom,fifo-vmax-mv = <9100>;
+	qcom,lra-period-us = <5882>;
 	status = "ok";
 
 	effect_0 {
